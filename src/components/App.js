@@ -31,7 +31,7 @@ const CARD_ARRAY = [
     img:'/images/jiedun.png'
   },
   {
-    name:'fjiedun',
+    name:'jiedun',
     img:'/images/jiedun.png'
   },
   {
@@ -274,6 +274,7 @@ class App extends Component {
                   <span>t</span>
                   <span>c</span>
                   <span>h</span>
+                  <span> </span>
                   <span class="capital">U</span>
                   <span>l</span>
                   <span>t</span>
@@ -289,6 +290,7 @@ class App extends Component {
                   <span>a</span>
                   <span>r</span>
                   <span>t</span>
+                  <span> </span>
                   <span class="capital">n</span>
                   <span>o</span>
                   <span>w</span>
