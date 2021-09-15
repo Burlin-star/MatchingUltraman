@@ -1,0 +1,52 @@
+/* Styles go here */
+
+:root {
+  --stroke: #0A1C20;
+  --text: #FEDC0C;
+  --bg: #6FBFD9;
+  --duration: 550ms;
+  --easing: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.token {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+body {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.1) 20%, transparent 20%), radial-gradient(rgba(0, 0, 0, 0.1) 20%, transparent 20%);
+  background-color: #6FBFD9;
+  background-position: 0 0, 20px 20px;
+  background-size: 40px 40px;
+}
+
+h1,
+h2 {
+  position: relative;
+  margin: 0;
+  color: var(--text);
+  -webkit-text-stroke-color: var(--stroke);
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  line-height: 1;
+  white-space: nowrap;
+  -webkit-text-stroke-width: 0px;
+}
+
+/* h1 span {
+  position: absolute;
+  left: 100;
+  top: 0;
+  display: inline-block;
+  margin-top: 60px;
+  opacity: 0;
+  font-size: 0px;
+  height: 1000px;
+  transition: all calc( var(--duration) * 0.7 ) var(--easing) 300ms;
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  -webkit-text-stroke-width: 4px;
+} */
+
