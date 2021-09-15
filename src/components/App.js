@@ -7,35 +7,35 @@ import brain from '../guts.png'
 
 const CARD_ARRAY = [
   {
-    name:'fries',
+    name:'jiedun',
     img:'/images/jiedun.png'
   },
   {
-    name:'cheeseburger',
+    name:'jiedun',
     img:'/images/jiedun.png'
   },
   {
-    name:'ice-cream',
+    name:'jiedun',
     img:'/images/jiedun.png'
   },
   {
-    name:'pizza',
+    name:'jiedun',
     img:'/images/jiedun.png'
   },
   {
-    name:'milkshake',
+    name:'jiedun',
     img:'/images/jiedun.png'
   },
   {
-    name:'hotdog',
+    name:'jiedun',
     img:'/images/jiedun.png'
   },
   {
-    name:'fries',
+    name:'fjiedun',
     img:'/images/jiedun.png'
   },
   {
-    name:'cheeseburger',
+    name:'jiedun',
     img:'/images/jiedun.png'
   },
   {
@@ -171,7 +171,7 @@ class App extends Component {
     if(this.state.cardsChosenId.includes(cardId)){
       return CARD_ARRAY[cardId].img
     }else{
-      return window.location.origin + '/images/blankb.jpg'
+      return window.location.origin + '/images/blank.jpg'
     }
     // return CARD_ARRAY[cardId].img
   }
